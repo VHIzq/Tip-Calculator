@@ -1,5 +1,4 @@
 body{
-  background: ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,4 +34,9 @@ body{
   font-weight: 600;
   padding: 8px 40px;
   border-radius: 5px;
+}
+@media(max-width: 767px) {
+  .app{
+    width: 70%;
+  }
 }
