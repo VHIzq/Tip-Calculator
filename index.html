@@ -9,20 +9,21 @@
 </head>
 <body>
   <div class="app">
-    <h1>This 4 U</h1>
+    <h1>This is 4 U</h1>
     <h2>Hi, I'm a tip calculator<br>How much was your bill?</h2>
     <form id="form-control">
-      <label for="bill-count" id="bill-count">
+      <label for="bill-count">
         $ <input type="number" id="bill-count" placeholder="Bill Amount" min="1" required>
       </label>
       <h3>Do you love your service?</h3>
       <select name="rate" id="rate">
+        <option value="0" disabled selected>--Choose an Option</option>
         <option value="0.05" id="bad">Don't like me so much</option>
         <option value="0.1" id="regular" selected>It likes me. A good deal with me</option>
         <option value="0.15" id="good">I loved it. I want to come back again</option>
       </select>
       <h3>How many people are sharing the bill?</h3>
-      <label for="people" id="people">
+      <label>
         <input type="number" id="people" placeholder="Number of people" required min="1"> people
       </label>
       <br>
