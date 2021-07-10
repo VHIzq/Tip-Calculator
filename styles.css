@@ -1,0 +1,38 @@
+body{
+  background: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/img/wall.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
+}
+.app{
+  background: gray;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 5%;
+  text-align: center;
+}
+#calculate{
+  margin-top: 20px;
+  padding: 6px 10px;
+  font-size: large;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+}
+#calculate:hover{
+  background-color: orange;
+}
+.tip{
+  border: 1px solid black;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 8px 40px;
+  border-radius: 5px;
+}

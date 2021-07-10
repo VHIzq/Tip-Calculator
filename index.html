@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>This 4 U</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <h1>This 4 U</h1>
+    <h2>Hi, I'm a tip calculator<br>How much was your bill?</h2>
+    <form id="form-control">
+      <label for="bill-count" id="bill-count">
+        $ <input type="number" id="bill-count" placeholder="Bill Amount" min="1" required>
+      </label>
+      <h3>Do you love your service?</h3>
+      <select name="rate" id="rate">
+        <option value="0.05" id="bad">Don't like me so much</option>
+        <option value="0.1" id="regular" selected>It likes me. A good deal with me</option>
+        <option value="0.15" id="good">I loved it. I want to come back again</option>
+      </select>
+      <h3>How many people are sharing the bill?</h3>
+      <label for="people" id="people">
+        <input type="number" id="people" placeholder="Number of people" required min="1"> people
+      </label>
+      <br>
+      <button id="calculate">Calculate</button>
+    </form>
+    <br>
+    <h3>Tip:</h3>
+    <div id="tip" class="tip">$0.00</div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
